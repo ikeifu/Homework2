@@ -6,6 +6,7 @@
     <title>My Website</title>
    <!-- CSS only -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <link rel="stylesheet" href="C:\Users\keith\Coding\Homework2\CSS\style.css">
 
    <!-- JS, Popper.js, and jQuery -->
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -13,24 +14,91 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
    </head>
 </head>
-<!-- body  -->
-<body>
-    <div class="container">
-        <div class="row">
-           <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 p-3 my-3 border bg-light">
-               <table class="table">
-                   <h1 class="col-12 px-0">About Me</h1>
-                   <th>
-                       <div class="col-12 px-0">
-                           <img class="img-responsive img thumb-nail float left m-2" src="C:\Users\keith\Coding\Homework2\02-Homework\Assets\Images\_DSC6904.jpg" width=20% alt="Me">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsa explicabo non nam aperiam. Ex vel, voluptates quibusdam fugit nam temporibus. Eligendi sunt fugiat id, natus alias explicabo expedita odio! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit nesciunt nobis odio asperiores nam, officiis laborum adipisci voluptatibus aut dolor voluptate iste expedita cumque rem et ea soluta quia ut.</p>
 
-                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo dolore distinctio possimus exercitationem sit, pariatur error commodi deleniti sequi! Tempora soluta nesciunt recusandae repudiandae vitae quam nemo unde est corrupti!</p>
-                       </div>
-                   </th>
-               </table>
-           </div> 
+
+<body>
+    <body>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+            
+            <!-- Brand -->
+            <div class="box-name">
+                <a class="navbar-brand" href="#">Keith Fung</a>
+            </div>
+            
+            <!-- Nav Bar Toggler  -->
+            <div class="wrapper">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+    
+            <!-- Navbar links -->
+            <div id="navbarToggleExternalContent"class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+    
+        </nav>
+    
+        <!-- Body -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 p-3 my-3 border bg-light">
+                    <table class="table">
+                        <h1 class="Heading">About Me</h1>
+                    <th>
+                        <div class="col-12">
+                            <img class="img-responsive img-thumbnail float-left col-sm-3" src="C:\Users\keith\Coding\Homework2\02-Homework\Assets\Images\_DSC6904.jpg" alt="Picture-of-Me">
+    
+                            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quasi magnam maiores cum, aliquam laboriosam dolorum tempore recusandae minima quo ratione itaque, atque iure quibusdam numquam, eum quis reiciendis ea! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt provident nostrum quisquam delectus hic. Dolore aliquam nisi doloribus assumenda aliquid, eos, perspiciatis, quod quo necessitatibus non facilis inventore similique voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sequi perferendis neque voluptate deserunt delectus nesciunt animi quia, illum, labore possimus ducimus consectetur harum! Ut quia accusantium debitis sed officiis!</p>
+                        
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ex inventore ipsum fugit. Nemo, minus commodi eaque alias culpa ullam. Adipisci illo nemo architecto, consequuntur libero quaerat doloribus? Repellat, commodi.</p>
+                        </div>
+                    </th>      
+                </div>
+            </div>
         </div>
-    </div>
+        <!-- Form  -->
+        <table class="table">
+            <h1 class="Heading">Contact</h1>
+        <th>
+        <form>
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="Name" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Name">             
+            </div>
+            <div class="form-group">
+              <label for="Email">Email</label>
+              <input type="Email" class="form-control" id="Name" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>                 
+            <button type="submit" class="btn btn-info btn-lg">Submit</button>    
+              </div>
+          </form>
+          </th>
+    <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row fixed-bottom bg-dark">
+                    <div class="col-12">
+                        <p class="text-center text-bottom text-end pt-4">
+                        © Copyright
+                        </p>
+                    </div>
+                </div>
+            </div>
 </body>
 </html>
