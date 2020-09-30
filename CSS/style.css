@@ -1,3 +1,15 @@
 p {
-    font-size:10px;
+    font-size:20px;
+}
+h1 {
+    color: teal;
+}
+.img {
+    margin: 20px;
+}
+.box-name {
+    color: teal;
+}
+.navbar-brand {
+    color: teal;
 }
