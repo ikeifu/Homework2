@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
-import Header from "./components/Header";
-import Banner from "./components/Banner";
+import Header from "../components/Header";
+import Banner from "../components/Banner";
 import Search from "./pages/Search";
 import Saved from "./pages/Saved";
 

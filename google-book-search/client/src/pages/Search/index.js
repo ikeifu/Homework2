@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import SearchForm from "../../components/SearchForm";
-import SearchResult from "../../components/SearchResult";
+import SearchForm from "../../../components/SearchForm";
+import SearchResult from "../../../components/SearchResult";
 import API from "../../utils/API";
 
 function Search() {

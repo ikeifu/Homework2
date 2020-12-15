@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Book from "../../components/Book";
+import Book from "../../../components/Book";
 import API from "../../utils/API";
 
 function Saved() {

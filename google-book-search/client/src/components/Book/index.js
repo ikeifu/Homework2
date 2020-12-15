@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import API from "../../utils/API";
+import API from "../../src/utils/API";
 
 function Book({ title, authors, image, description, link, _id, deleteBook }) {
   if (!authors) {
